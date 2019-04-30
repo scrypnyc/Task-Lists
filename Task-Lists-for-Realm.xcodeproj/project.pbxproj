@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		849CF41422789C4C005E3B65 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CF41322789C4C005E3B65 /* TableViewController.swift */; };
 		84ADA2E5227859FD00CA2EFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA2E4227859FD00CA2EFB /* AppDelegate.swift */; };
-		84ADA2E7227859FD00CA2EFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADA2E6227859FD00CA2EFB /* ViewController.swift */; };
-		84ADA2EA227859FD00CA2EFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ADA2E8227859FD00CA2EFB /* Main.storyboard */; };
 		84ADA2EC227859FE00CA2EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ADA2EB227859FE00CA2EFB /* Assets.xcassets */; };
 		84ADA2EF227859FE00CA2EFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ADA2ED227859FE00CA2EFB /* LaunchScreen.storyboard */; };
 		979BF2EEA2018CFB00E625CE /* Pods_Task_Lists_for_Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA91B090BA68070DE808A7CD /* Pods_Task_Lists_for_Realm.framework */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -18,10 +17,9 @@
 /* Begin PBXFileReference section */
 		3AC4E921D2652DC978FF71F1 /* Pods-Task-Lists-for-Realm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task-Lists-for-Realm.release.xcconfig"; path = "Target Support Files/Pods-Task-Lists-for-Realm/Pods-Task-Lists-for-Realm.release.xcconfig"; sourceTree = "<group>"; };
 		82B2586A3EEF4D93498E6DB5 /* Pods-Task-Lists-for-Realm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task-Lists-for-Realm.debug.xcconfig"; path = "Target Support Files/Pods-Task-Lists-for-Realm/Pods-Task-Lists-for-Realm.debug.xcconfig"; sourceTree = "<group>"; };
+		849CF41322789C4C005E3B65 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		84ADA2E1227859FD00CA2EFB /* Task-Lists-for-Realm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task-Lists-for-Realm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ADA2E4227859FD00CA2EFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84ADA2E6227859FD00CA2EFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84ADA2E9227859FD00CA2EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84ADA2EB227859FE00CA2EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84ADA2EE227859FE00CA2EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84ADA2F0227859FE00CA2EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,8 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				84ADA2E4227859FD00CA2EFB /* AppDelegate.swift */,
-				84ADA2E6227859FD00CA2EFB /* ViewController.swift */,
-				84ADA2E8227859FD00CA2EFB /* Main.storyboard */,
+				849CF41322789C4C005E3B65 /* TableViewController.swift */,
 				84ADA2EB227859FE00CA2EFB /* Assets.xcassets */,
 				84ADA2ED227859FE00CA2EFB /* LaunchScreen.storyboard */,
 				84ADA2F0227859FE00CA2EFB /* Info.plist */,
@@ -154,7 +151,6 @@
 			files = (
 				84ADA2EF227859FE00CA2EFB /* LaunchScreen.storyboard in Resources */,
 				84ADA2EC227859FE00CA2EFB /* Assets.xcassets in Resources */,
-				84ADA2EA227859FD00CA2EFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84ADA2E7227859FD00CA2EFB /* ViewController.swift in Sources */,
+				849CF41422789C4C005E3B65 /* TableViewController.swift in Sources */,
 				84ADA2E5227859FD00CA2EFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,14 +218,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84ADA2E8227859FD00CA2EFB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84ADA2E9227859FD00CA2EFB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84ADA2ED227859FE00CA2EFB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

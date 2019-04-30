@@ -12,7 +12,7 @@
 		84ADA2EA227859FD00CA2EFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ADA2E8227859FD00CA2EFB /* Main.storyboard */; };
 		84ADA2EC227859FE00CA2EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ADA2EB227859FE00CA2EFB /* Assets.xcassets */; };
 		84ADA2EF227859FE00CA2EFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ADA2ED227859FE00CA2EFB /* LaunchScreen.storyboard */; };
-		979BF2EEA2018CFB00E625CE /* Pods_Task_Lists_for_Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA91B090BA68070DE808A7CD /* Pods_Task_Lists_for_Realm.framework */; };
+		979BF2EEA2018CFB00E625CE /* Pods_Task_Lists_for_Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA91B090BA68070DE808A7CD /* Pods_Task_Lists_for_Realm.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +25,8 @@
 		84ADA2EB227859FE00CA2EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84ADA2EE227859FE00CA2EFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84ADA2F0227859FE00CA2EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B73EB9227866CF00C2DC02 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B73EBB227866CF00C2DC02 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA91B090BA68070DE808A7CD /* Pods_Task_Lists_for_Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task_Lists_for_Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -43,6 +45,8 @@
 		826592F03051D6227EFD8365 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84B73EB9227866CF00C2DC02 /* Realm.framework */,
+				84B73EBB227866CF00C2DC02 /* RealmSwift.framework */,
 				DA91B090BA68070DE808A7CD /* Pods_Task_Lists_for_Realm.framework */,
 			);
 			name = Frameworks;
@@ -85,7 +89,6 @@
 				82B2586A3EEF4D93498E6DB5 /* Pods-Task-Lists-for-Realm.debug.xcconfig */,
 				3AC4E921D2652DC978FF71F1 /* Pods-Task-Lists-for-Realm.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -289,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -344,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
